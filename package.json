@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "lint": "oxlint",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "2.0.0",
+    "@nuxt/image": "1.11.0",
+    "nuxt": "^4.2.0",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3",
+    "web-fragments": "^0.8.1"
+  },
+  "devDependencies": {
+    "@nuxt/kit": "^4.2.0",
+    "oxlint": "^1.24.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:rolldown-vite@latest"
+    }
+  },
+  "volta": {
+    "node": "24.6.0",
+    "pnpm": "10.20.0"
+  },
+  "packageManager": "pnpm@10.20.0",
+  "engines": {
+    "node": "24",
+    "pnpm": "10"
+  }
+}

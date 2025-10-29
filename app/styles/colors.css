@@ -1,0 +1,14 @@
+:root {
+    /* Brand colors */
+    --color-blue: #004155;
+    --color-azure: #005578;
+    --color-aqua: #0082aa;
+    --color-teal: #00b4c8;
+
+    --color-red: #ff6464;
+    --color-white: #ffffff;
+
+    /* Semantic colors */
+    --color-background: var(--color-azure);
+    --color-text: var(--color-white);
+}
