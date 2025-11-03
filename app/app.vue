@@ -3,7 +3,7 @@ useHead({
     title: "Fractal",
 });
 
-console.log('App.pulse');
+// console.log('App.pulse');
 </script>
 
 <template>

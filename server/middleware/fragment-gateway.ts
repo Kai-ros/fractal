@@ -2,7 +2,7 @@ import { FragmentGateway } from "web-fragments/gateway";
 import { getNodeMiddleware } from "web-fragments/gateway/node";
 
 // INFO: Initialize gateway
-const fragmentGateway = new FragmentGateway({});
+const fragmentGateway = new FragmentGateway();
 
 // INFO: Register fragment
 fragmentGateway.registerFragment({
@@ -16,7 +16,7 @@ fragmentGateway.registerFragment({
   ],
 });
 
-const fragmentMiddleware = getNodeMiddleware(fragmentGateway, {});
+const fragmentMiddleware = getNodeMiddleware(fragmentGateway, { mode: 'development' });
 
 export default defineEventHandler(async (event) => {
   try {

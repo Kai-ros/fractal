@@ -1,5 +1,5 @@
 <script setup lang="ts">
-console.log('Layout.pulse');
+// console.log('Layout.pulse');
 
 </script>
 

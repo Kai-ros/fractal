@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-console.log('SolidShard.pulse');
+// console.log('SolidShard.pulse');
 </script>
 
 <template>

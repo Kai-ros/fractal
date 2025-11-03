@@ -1,5 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import Aura from "@primeuix/themes/aura";
 
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
@@ -14,4 +13,9 @@ export default defineNuxtConfig({
       googleicons: false,
     },
   },
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) => tag === 'web-fragment'
+    }
+  }
 });

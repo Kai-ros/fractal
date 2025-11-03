@@ -1,5 +1,5 @@
 <script setup lang="ts">
-console.log('Dashboard.pulse');
+// console.log('Dashboard.pulse');
 </script>
 
 <template>
@@ -22,6 +22,9 @@ console.log('Dashboard.pulse');
         </template>
         <template #pitch>
             <BaseButton label="SolidShard" />
+            <web-fragment fragment-id="solid-shard" />
+
+            <BaseFragment name="solid" />
 
             <SolidShard />
         </template>
