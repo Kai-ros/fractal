@@ -7,8 +7,8 @@ console.log('BaseFragment.name', name);
 </script>
 
 <template>
-    <!-- <web-fragment :fragment-id="`${name}-shard`"> -->
-    <web-fragment fragment-id="solid-shard">
+    <!-- <web-fragment fragment-id="solid-shard"> -->
+    <web-fragment :fragment-id="`${name}-shard`">
     </web-fragment>
 </template>
 
